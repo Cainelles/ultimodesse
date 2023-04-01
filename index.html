@@ -1,0 +1,107 @@
+<link rel="stylesheet" href="style.css">
+<nav>  
+    <ul> 
+        <li>
+            <div class="brilho">
+                <span>cainelles</span>
+              </div>
+              
+            <div class="tudo"></div>
+            <a href="https://bianquinhaeuteamomaisquetudo.netlify.app/">Bianquinha</a>
+            <span></span> 
+            <span></span>   
+            <span></span>   
+            <span></span>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/watch?v=fukGbiPuBjU">A do momento</a>
+            <span></span> 
+            <span></span> 
+            <span></span> 
+            <span></span>
+        <li>
+            <a href="https://store.steampowered.com/?l=portuguese">Steam Dowload</a>
+            <span></span> 
+            <span></span> 
+            <span></span> 
+            <span></span>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/cainelles__/">Instagram</a>
+            <span></span> 
+            <span></span> 
+            <span></span> 
+            <span></span>
+            </div>
+        </li>
+    </ul> 
+</nav>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exemplo de Título com Cores em RGB</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Cainelles</h1>
+	</div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cainelles Brilhante</title>
+	<style>
+		body {
+			background-color: #404040;
+		}
+		h1 {
+			font-size: 6rem;
+			font-weight: bold;
+			text-transform: uppercase;
+			text-align: center;
+			color: black;
+			position: relative;
+		}
+		h1::before {
+			content: "cainelles";
+			position: absolute;
+			top: -0.1em;
+			left: -0.05em;
+			color: transparent;
+			text-shadow: 
+				0 0 2px rgb(255,0,0),
+				0 0 4px rgb(255,0,0),
+				0 0 6px rgb(255,0,0),
+				0 0 8px rgb(255,0,0),
+				0 0 10px rgb(255,0,0),
+				0 0 12px rgb(255,0,0),
+				0 0 14px rgb(255,0,0);
+			animation: shine 2s linear infinite;
+		}
+		@keyframes shine {
+			0% {
+				text-shadow: 
+					0 0 2px rgb(255,0,0),
+					0 0 4px rgb(255,0,0),
+					0 0 6px rgb(255,0,0),
+					0 0 8px rgb(255,0,0),
+					0 0 10px rgb(255,0,0),
+					0 0 12px rgb(255,0,0),
+					0 0 14px rgb(255,0,0);
+			}
+			100% {
+				text-shadow: 
+					0 0 2px rgb(255,0,0),
+					0 0 4px rgb(255,255,0),
+					0 0 6px rgb(0,255,0),
+					0 0 8px rgb(0,0,255),
+					0 0 10px rgb(255,0,255),
+					0 0 12px rgb(255,255,255),
+					0 0 14px rgb(255,0,0);
+			}
+		}
+	</style>
+
+
